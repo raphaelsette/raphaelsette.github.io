@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+.dark {
+    background: #585858;;
+}
+.dark .container {
+    background: #000000;
+    color: #FFFFFF;
+}
+.dark .lista-de-projetos a {
+    color: #FFFFFF;
+}
+.dark #alterar-tema {
+    background: #000000;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    cursor: pointer;
+    width: 105px;
+    border: 2px solid #FFFFFF;
+}
+.dark #alterar-tema:hover {
+    background: #FFFFFF;
+    color: #000000;
+}
+.dark .icon-claro {
+    width: 46px;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(50deg) brightness(105%) contrast(101%);
+}
+.icon-claro {
+    width: 46px;
+    filter: invert(0%) sepia(0%) saturate(7500%) hue-rotate(163deg) brightness(90%) contrast(108%);
+}
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    background-image: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+    background-origin: content-box;
+    padding: 3px;
+    animation: animatedborder 7s ease alternate infinite;
+    background-size: 400% 400%;
+}
+.container {
+    background: #FFFFFF;
+    margin: 10px auto 60px auto;
+    width: 50%;
+    border-radius: 20px;
+    padding: 20px;
+}
+.perfil {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+.foto-do-perfil {
+    max-height: 160px;
+    border-radius: 400px;
+    background-image: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+    background-origin: content-box;
+    padding: 3px;
+    animation: animatedborder 7s ease alternate infinite;
+    background-size: 400% 400%;
+}
+.titulo-do-perfil {
+    margin: 0 0 10px 20px;
+    flex: 1;
+}
+.titulo-do-perfil h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+.titulo-do-perfil h2 {
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+#alterar-tema {
+    align-self: flex-end;
+    font-size: 16px;
+    font-weight: 400;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 100px;
+    cursor: pointer;
+    background: #FFFFFF;
+    width: 105px;
+    border: 2px solid #000000;
+}
+#alterar-tema:hover {
+    background: #000000;
+    color: #FFFFFF;
+}
+.zoom-mouse-hover:hover {
+    transition: transform 0.1s;
+    transform: translateX(0px) scale(1.2);
+}
+.titulo-geral {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 30px 0 10px 0;
+}
+.lista-de-projetos {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin: 0 0 40px 0;
+}
+.lista-de-projetos a {
+    text-decoration: none;
+    color: #000000;
+}
+.lista-de-projetos a:hover {
+    font-weight: 700;
+}
+.lista-de-projetos li {
+    margin: 10px 0 0 0;
+    list-style: none;
+    list-style-type: none;
+}
+@media screen and (min-width: 0px) and (max-width: 1300px) {
+    .container {
+        width: 80%;
+        margin: 10px auto 10px auto;
+    }
+    .perfil {
+        flex-direction: column;
+        margin: 10px 0 0 0;
+    }
+    .titulo-do-perfil h1 {
+        text-align: center;
+        margin: 20px auto 0 auto;
+    }
+    .titulo-do-perfil h2 {
+        text-align: center;
+        margin: 10px auto 0 auto;
+    }
+    .foto-do-perfil {
+        max-height: 200px;
+    }
+    .titulo-geral {
+        font-size: 25px;
+    }
+    .lista-de-projetos li {
+        font-size: 20px;
+    }
+}
+@keyframes animatedborder { /* Efeito RGB */
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
