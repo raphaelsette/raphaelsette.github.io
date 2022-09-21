@@ -1,35 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 
-.dark {
-    background: #585858;;
-}
-.dark .container {
-    background: #000000;
-    color: #FFFFFF;
-}
-.dark .lista-de-projetos a {
-    color: #FFFFFF;
-}
-.dark #alterar-tema {
-    background: #000000;
-    border: 1px solid #FFFFFF;
-    color: #FFFFFF;
-    cursor: pointer;
-    width: 105px;
-    border: 2px solid #FFFFFF;
-}
-.dark #alterar-tema:hover {
-    background: #FFFFFF;
-    color: #000000;
-}
-.dark .icon-claro {
-    width: 46px;
-    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(50deg) brightness(105%) contrast(101%);
-}
-.icon-claro {
-    width: 46px;
-    filter: invert(0%) sepia(0%) saturate(7500%) hue-rotate(163deg) brightness(90%) contrast(108%);
-}
 body {
     font-family: 'Inter', sans-serif;
     font-size: 16px;
@@ -98,6 +68,10 @@ body {
     font-weight: 700;
     margin: 30px 0 10px 0;
 }
+.icon-claro {
+    width: 46px;
+    filter: invert(0%) sepia(0%) saturate(7500%) hue-rotate(163deg) brightness(90%) contrast(108%);
+}
 .lista-de-projetos {
     display: flex;
     flex-direction: column;
@@ -116,6 +90,32 @@ body {
     list-style: none;
     list-style-type: none;
 }
+.dark {
+    background: #585858;;
+}
+.dark .container {
+    background: #000000;
+    color: #FFFFFF;
+}
+.dark #alterar-tema {
+    background: #000000;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    cursor: pointer;
+    width: 105px;
+    border: 2px solid #FFFFFF;
+}
+.dark #alterar-tema:hover {
+    background: #FFFFFF;
+    color: #000000;
+}
+.dark .icon-claro {
+    width: 46px;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(50deg) brightness(105%) contrast(101%);
+}
+.dark .lista-de-projetos a {
+    color: #FFFFFF;
+}
 @media screen and (min-width: 0px) and (max-width: 1300px) {
     .container {
         width: 80%;
@@ -125,6 +125,9 @@ body {
         flex-direction: column;
         margin: 10px 0 0 0;
     }
+    .foto-do-perfil {
+        max-height: 200px;
+    }
     .titulo-do-perfil h1 {
         text-align: center;
         margin: 20px auto 0 auto;
@@ -132,9 +135,6 @@ body {
     .titulo-do-perfil h2 {
         text-align: center;
         margin: 10px auto 0 auto;
-    }
-    .foto-do-perfil {
-        max-height: 200px;
     }
     .titulo-geral {
         font-size: 25px;
