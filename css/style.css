@@ -3,11 +3,7 @@
 body {
     font-family: 'Inter', sans-serif;
     font-size: 16px;
-    background-image: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
-    background-origin: content-box;
-    padding: 3px;
-    animation: animatedborder 7s ease alternate infinite;
-    background-size: 400% 400%;
+    background: #444ca4;
 }
 .container {
     background: #FFFFFF;
@@ -63,6 +59,9 @@ body {
 .zoom-mouse-hover:hover {
     transition: transform 0.1s;
     transform: translateX(0px) scale(1.2);
+}
+main div {
+    margin: 0 0 0 20px;
 }
 .titulo-geral {
     font-size: 20px;
