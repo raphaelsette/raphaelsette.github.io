@@ -87,7 +87,7 @@ main div {
     font-weight: 700;
 }
 .lista-de-projetos li {
-    margin: 10px 0 0 0;
+    margin: 0 0 10px 0;
     list-style: none;
     list-style-type: none;
 }
