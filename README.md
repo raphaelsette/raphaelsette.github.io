@@ -5,11 +5,11 @@
   </div>
  
   
- ## Demonstração
+ ## Preview
 
 [https://raphaelsette.github.io/](https://raphaelsette.github.io)
 
-## Referências
+## References
 
  - <a href="https://fonts.google.com/" target="_blank">Google Fonts</a>
  - <a href="https://widgetcore.com/how-to-create-rainbow-gradient-borders-in-css/" target="_blank">Rainbow Gradient Borders in CSS</a>
@@ -18,6 +18,6 @@
  - <a href="https://giphy.com/gifs/animation-animated-5hmgfdvimPl5NjTUU6" target="_blank">8 Bit Animation Sticker By HAZ</a>
  - <a href="https://simpleicons.org/" target="_blank">Simpleicons</a>
 
-## Autores
+## Authors
 
 - [@raphaelsette](https://www.github.com/raphaelsette)
