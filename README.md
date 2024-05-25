@@ -1,7 +1,7 @@
 <div align="center">
   <a href="https://imersao.dev/">
-  <img height="65em" src="https://raphaelsette.github.io/src/img/imersao-dev.svg"/><br><br>
-  <img height="65em" src="https://raphaelsette.github.io/src/img/alura.svg"/></a><br>
+  <img height="65em" src="https://raphaelsette.github.io/assets/img/imersao-dev.svg"/><br><br>
+  <img height="65em" src="https://raphaelsette.github.io/assets/img/alura.svg"/></a><br>
   </div>
  
   
