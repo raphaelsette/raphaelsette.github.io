@@ -4,15 +4,17 @@
 
 Este repositório contém o código-fonte do meu portfólio pessoal, onde apresento minhas competências, as ferramentas que utilizo no dia a dia e os projetos que desenvolvi.
 
-## 💻 Como Visualizar
-
-O projeto pode ser acessado diretamente através do GitHub Pages: 👉 https://raphaelsette.github.io/
 
 ## 🎨 Funcionalidades do Portfólio
 * **Dark Mode Nativo:** Sistema de alternância de temas (Light/Dark) implementado com manipulação de classes via JavaScript e variáveis de CSS.
 * **Responsividade:** Ajustado para diferentes tamanhos de tela (Mobile e Desktop) através de Media Queries.
 * **Animações:** Utilização de animações `@keyframes` para efeitos visuais, como a borda RGB animada na foto de perfil.
 
+## 💻 Como Visualizar
+
+O projeto pode ser acessado diretamente através do GitHub Pages: 👉 https://raphaelsette.github.io/
+
+<img src="./assets/img/screenshots/print_1.png" width="800px">
   
 ## 📝 Referências
 
