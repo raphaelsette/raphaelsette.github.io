@@ -14,7 +14,7 @@ Este repositório contém o código-fonte do meu portfólio pessoal, onde aprese
 
 O projeto pode ser acessado diretamente através do GitHub Pages: 👉 https://raphaelsette.github.io/
 
-<img src="./assets/img/screenshots/print_1.png" width="800px">
+<img src="./assets/img/screenshots/print_1_1.png" width="800px">
   
 ## 📝 Referências
 
